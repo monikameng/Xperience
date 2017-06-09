@@ -375,7 +375,7 @@ class SignUpViewController: UIViewController,UITextFieldDelegate {
         
         var y = 70
         page6nextButton.frame = CGRect(x: Int(UIScreen.main.bounds.width/2-100), y: y+60*4+70, width: 200, height: 200)
-        page6nextButton.setTitle("返回登陆", for: .normal)
+        page6nextButton.setTitle("返回登录", for: .normal)
         page6nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
         page6.addSubview(page6nextButton)
     }
